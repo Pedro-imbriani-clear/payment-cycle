@@ -1,4 +1,4 @@
-const BillingCycle = require('./billingCycle')
+const BillingCycle = require('./billingCycles')
 const errorHandler = require('../common/errorHandler')
 
 BillingCycle.methods(['get', 'post', 'put', 'delete'])
@@ -81,5 +81,4 @@ BillingCycle.route('summary', (req, res, next) => {
         }
     })
 })
-
 module.exports = BillingCycle
