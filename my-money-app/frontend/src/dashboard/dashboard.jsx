@@ -35,4 +35,4 @@ class Dashboard extends Component {
 
 const mapStateToProps = state => ({summary: state.dashboard.summary}) 
 const mapDispatchToProps = dispatch => bindActionCreators({getSummary},dispatch)
-export default connect(mapStateToProps)(Dashboard)
+export default connect(mapDispatchToProps,mapStateToProps)(Dashboard)
