@@ -1,0 +1,5 @@
+// renomear para .env
+
+modele.exports = {
+    authSecret:''
+}
